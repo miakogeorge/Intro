@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head><title></title></head>
+    <body>
+        <h2>Kenswed Student Form</h2>
+        <form>
+            
+                <legend>Personal details</legend>
+                <label>First Name:</label>
+                <input type="text" name="fname"><br>
+                <label>Last Name:</label>
+                <input type="text" name="lname"><br>
+                <label>Email address:</label>
+                <input type="text" name="email"><br>
+                <label>Mobile No:</label>
+                <input type="number" name="mobile"><br>
+                <label>Gender</label>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="other">Other <Br>
+                <label>DoB:</label>
+                <input type="date" name="date"><br>
+                <label>Religion:</label>
+                <input type="radio" name="Religion" value="Christian">Christian
+                <input type="radio" name="Religion" value="Muslim">Muslim
+                <input type="radio" name="Religion" value="Hindu">Hindu
+                <input type="radio" name="Religion" value="Pagan">Pagan <br>
+                <label>County</label>
+                <input type="text" name="county" list="County" placeholder="Select County">
+                <datalist id="County">
+                    <option value="Mandera"></option>
+                    <option value="Nairobi"></option>
+                    <option value="Nakuru"></option>
+                    <option value="Kisii"></option>
+                    <option value="Kajiado"></option>
+                    <option value="Mombasa"></option>
+                    <option value="Machakos"></option>
+                    <option value="Kiambu"></option>
+                    <option value="Nyeri"></option>
+                    <option value="Kwale"></option>
+                    <option value="Trans Nzoia"></option>
+                    <option value="Kisumu"></option><br>
+                </datalist><br>
+                <label>Course:</label>
+                <input type="text" name="course" list="course">
+                <datalist id="course"><br>
+                    <option value="ICP"></option>
+                    <option value="ICT"></option>
+                    <option value="Pastry"></option>
+                    <option value="Hairdressing"></option>
+                    <option value="Tailoring"></option>
+                    </datalist>
+                </datalist><br>
+                <label>Term:</label>
+                <input type="text" name="Term" list="Term">
+                <datalist id="Term"><br>
+                    <option value="Term 1"></option>
+                    <option value="Term 2"></option>
+                    <option value="Term 3"></option>
+                    </datalist><br>
+                    <label>Hobbies:</label>
+                    <input type="checkbox" name="Hobbies" value="Reading">Reading
+                    <input type="checkbox" name="Hobbies" value="Swimming">Swimming
+                    <input type="checkbox" name="Hobbies" value="Coding">Coding
+                    <input type="checkbox" name="Hobbies" value="Dancing">Dancing
+                    <input type="checkbox" name="Hobbies" value="Football">Football <br>
+                    
+        </form>
+        <?php
+                  $Fname=$_PoST["Fname"]
+    </body>
+</html>

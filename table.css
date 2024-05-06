@@ -1,0 +1,17 @@
+table,td,th{
+border: 1px solid black;
+border-collapse: collapse;
+
+}
+td, th{
+    padding: 10px;
+}
+table#alter tr:nth-child(even)
+{
+    background-color: #eeeeee;
+}
+table#alter tr:nth-child(odd)
+{background-color: #573333
+}
+table#alter th{color: white;
+background-color: gray;}

@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+}
+.header{
+padding: 10px;
+background-color: #1d1731;
+text-align: center;
+}
+.header h2{color: rgb(43, 0, 255);
+    font-family: algerian;
+    font-size: 40px;
+}
+.nav{
+background-color: #05131a;
+padding: 5px
+}
+.nav a{
+    color: #fff;
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    color: #7fffd4;
+}
+.lside{
+    text-align: left;
+    color: #ffffff;
+min-height: 440px;
+width: 70%;
+float: left;
+background-image: url(img-universal-laws.webp); 
+}
+.rside{
+    text-align: center;
+    width: 30%;
+    min-height: 440px;
+color: #000000;
+background-image: url(cloud-with-blue-sky-texture_44073-1007.jpg) ; background-repeat: repeat;
+float: right;
+}
+.footer{
+    background-color:#e55e64;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 60px;
+}
+.footer p{
+    color:#8fbc8f
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.rside2{
+    text-align: center;
+    width: 33.33%;
+    min-height: 440px;
+background-color: #6e7070;
+float: right;
+}
+.lside2{
+    text-align: center;
+    background-color: #f0f8ff;
+min-height: 440px;
+width: 33.33%;
+float: left;
+}
+.rside3{
+    text-align: center;
+    width: 33.33%;
+    min-height: 440px;
+background-color: #508a8a;
+float: right;
+}
+.rside4{
+    text-align: center;
+    width: 100%;
+    min-height: 200px;
+background-color: #6f8791;
+float: right;
+}
+img {
+    border-radius: 50%;
+}
